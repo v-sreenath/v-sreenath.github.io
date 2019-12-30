@@ -31,17 +31,21 @@ The Inter-University Centre for Astronomy and Astrophysics</font></a>  </h3>
 <div class="btns" style="background:#f1f1f1;border-radius:15px;">
  <button class="btn" onclick="openCity(event, 'Home')" id="defaultOpen">Home</button>
  <button class="btn" onclick="openCity(event, 'About me')">About me</button>
+ <button class="btn" onclick="openCity(event, 'Teaching')">Teaching</button>
+ <!--
  <button class="btn" onclick="openCity(event, 'My interests')">Research</button>
  <button class="btn" onclick="openCity(event, 'Publications')">Publications</button>
  <button class="btn" onclick="openCity(event, 'Codes')">Codes</button>
-<!--<div class="dropdown">
+ -->
+<div class="dropdown">
  <button onclick="myFunction()" class="dropbtn">Research</button>
   <div id="mydropdown" class="dropdown-content">
     <a onclick="openCity(event, 'My interests')">My interests</a>
     <a onclick="openCity(event, 'Publications')">Publications</a>
     <a onclick="openCity(event, 'Codes')">Codes</a> 
-	</div>
-	</div>-->
+  </div>
+</div>
+
 
 <!--  <button class="btn" onclick="openCity(event, 'Resources')">Resources</button>-->
 <!--<div class="dropdown">
@@ -58,9 +62,8 @@ The Inter-University Centre for Astronomy and Astrophysics</font></a>  </h3>
   <div id="mydropdown" class="dropdown-content">
 	<a onclick="openCity(event, 'Popular')">Popular</a></br>
     <a onclick="openCity(event, 'Technical')">Technical</a> </br>
-<!--	<a onclick="openCity(event, 'Books')">Books</a> -->
 	</div>
-	</div>
+</div>
 </div>
 <!-- Write Tab contents here -->
 
@@ -147,6 +150,34 @@ Thrissur, India, July 2003 -- March 2006</span></li>
 <!--<p> My detailed CV can be downloaded from <a href="vsreenath-cv-web.pdf" target="_blank">here</a>.</p>
 </br>-->
 </div>
+<!--<div style="clear:both"> </div>-->
+<!--/section-->
+</div>
+
+<!-- Teaching -->
+<div id="Teaching" class="tabcontent">
+<h2> Teaching</h2>
+<div>
+<p><b>2020 even semester </b></p>
+<ul style="color:#1e90ff">
+<li style="margin-top:12px"><span style="color:#000000;">
+	<a> PH110 Engineering Physics</a></span></li>
+<!-- -->
+<li style="margin-top:12px"><span style="color:#000000;">
+	<a href="comphy.html"> PH755 Computational methods in Physics</a></span></li>
+<!-- -->
+</ul>
+</div>
+<!-- -->
+<div>
+<p><b>2019 odd semester </b></p>
+<ul style="color:#1e90ff">
+<li style="margin-top:12px"><span style="color:#000000;">
+	<a> PH110 Engineering Physics</a>(Taught part of the course)</span></li>
+<!-- -->
+</ul>
+</div>
+
 <!--<div style="clear:both"> </div>-->
 <!--/section-->
 </div>
@@ -522,7 +553,7 @@ document.getElementById("defaultOpen").click();
 <script>
 /* When the user clicks on the button,
 toggle between hiding and showing the dropdown content */
-/*function myFunction() {
+function myFunction() {
     document.getElementById("myDropdown").classList.toggle("show");
 }
 
@@ -539,7 +570,7 @@ window.onclick = function(event) {
       }
     }
   }
-}*/
+}
 </script>
 
 </body>
